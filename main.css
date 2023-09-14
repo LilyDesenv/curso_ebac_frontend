@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header{
+    background-color: rgb(163, 150, 209);
+    padding: 16px 0;
+    color: blueviolet;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header li a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+p{
+    text-align: justify;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between; 
+}
+
+.articles article img{
+    /* height:  180px; */
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, article{
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: azure;
+    padding: 8px;
+    display:  inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3{
+    font-size: 24px;
+    text-align: justify;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0,255,0,0.1);
+}
+#sports .articles article a{
+    background-color: rgba(0,255,0,0.7);
+    color: black;
+}
+
+#economy{
+    background-color: rgba(255,255,0,0.2);
+}
+
+#economy .articles article a{
+    background-color:rgba(255,255,0,0.7) ;
+    color: black;
+}
+
+#entertainment{
+    background-color: rgba(255,0,0,0.3);
+}
+
+#entertainment .articles article a{
+    background-color: rgba(255,0,0,0.6);
+    color: black;
+}
+
+#tecnology{
+    background-color: rgba(0,100,255,0.3);
+}
+
+#tecnology .articles article a{
+    background-color: rgba(0,0,255,0.6);
+    color: black;
+}
