@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercício HTML com JS</h1>
+        <h2>Validando números</h2>
+        <form id="form-numeros">
+
+            <input type="number" id="num1" required placeholder="Informe o primeiro número"/>
+            <input type="number" id="num2" required placeholder="Informe o segundo número" />
+            <p class="error-message">O segundo número informado deve ser maior que o primeiro!</p>
+            <button id="enviar" type="submit">Enviar</button>
+        </form>
+        <p class="sucess-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
