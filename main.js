@@ -11,7 +11,7 @@ function validaNumero(num1, num2){
 
 form.addEventListener('submit',function(e){
     e.preventDefault();
-    const mensagemSucesso = 'Números validados com sucesso!';
+    const mensagemSucesso = 'Números validados com Sucesso!';
 
     formValido = validaNumero(num1.value, num2.value);
     if(formValido){
