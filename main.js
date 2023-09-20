@@ -4,9 +4,9 @@ $(document).ready(function(){
         e.preventDefault(); 
         
         const novaTarefa = $("#nome-tarefa").val();
-        //verificar se já existe a mesma atividade na lista
+        //verificar se já existe a mesma tarefa na lista
         if(listaTarefas.includes(novaTarefa)){
-            alert("Atividade já foi cadastrada!")
+            alert("A tarefa já foi cadastrada!")
         }else{
             listaTarefas.push(novaTarefa);
             const novoItem = $(`<li>${novaTarefa}</li>`);
