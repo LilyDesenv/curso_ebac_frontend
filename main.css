@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mooli', sans-serif;
+}
+
+header{
+    background-color: #4100aa;
+    padding: 16px 0;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid #4100aa;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.container-flex{
+    display: flex;
+}
+
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #711197;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-bottom: 16px;
+
+    
+}
+
+.form-campo{
+    margin: 16px 0;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+form{
+    max-width: 400px;
+    width: 100%;
+    align-items: center;
+}
+
+input{
+    background-color: #f8edfc;
+    height: 30px;
+    padding: 5px;
+}
+
+input, label{
+    max-width: 400px;
+    width: 90%;
+    margin: 0 16px;
+}
+
+.error{
+    color: red;
+}
