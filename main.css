@@ -17,12 +17,6 @@
 
 }
 
-.produto--em-destaque{
-    border: 2px solid gold;
-    padding: 8px;
-    background-color: #ffff42;
-}
-
 .produto__imagem{
     width: 100%;
 }
@@ -36,3 +30,8 @@
     color: gray;
 }
 
+.produto--em-destaque{
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+}
